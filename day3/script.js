@@ -1,5 +1,5 @@
 // 1.
-let firstName = "bayo";
+/*let firstName = "bayo";
 console.log(typeof firstName); //string
 
 let lastNmae = "deji";
@@ -61,7 +61,7 @@ console.log(2 == 3); //false
 Find the length of python and jargon and make a falsy comparison statement.*/
 
 // 5.
-let p = 4 > 3;
+/*let p = 4 > 3;
 console.log(p); //true
 
 p = 4 >= 3;
@@ -115,7 +115,7 @@ console.log("python".length != "jargon".length); //false
 !(4 === '4')
 There is no 'on' in both dragon and python*/
 
-let m = 4 > 3 && 10 < 12;
+/*let m = 4 > 3 && 10 < 12;
 console.log(m); //true
 
 m = 4 > 3 && 10 > 12;
@@ -156,7 +156,7 @@ What is the hours now?
 What is the minutes now?
 Find out the numbers of seconds elapsed from January 1, 1970 to now.*/
 
-let now = new Date();
+/*let now = new Date();
 console.log(now.getFullYear()); //2022
 
 now = new Date();
@@ -176,3 +176,45 @@ console.log(now.getMinutes()); //37
 
 now = new Date();
 console.log(now.getSeconds()); //22
+
+//LEVEL 2
+let base = prompt("Enter base");
+let height = prompt("Enter height");
+let area = 0.5 * base * height;
+alert(area);
+
+let a = prompt("Enter side a");
+let b = prompt("Enter side b");
+let c = prompt("Enter side c");
+let perimeter = parseInt(a) + parseInt(b) + parseInt(c);
+alert(perimeter);*/
+
+/*let width = prompt("Enter width");
+let length = prompt("Enter length");
+let pm = 2 * (parseInt(width) + parseInt(length));
+let areaOfRectangle = length * width * pm;
+console.log(areaOfRectangle);*/
+
+/*let radius = prompt("Enter radius");
+let pi = 3.14;
+let areaOfCircle = pi * radius * radius;
+console.log(areaOfCircle);
+let circOfCircle = 2 * pi * radius;
+console.log(circOfCircle);*/
+
+/*let hour = prompt("Enter hour");
+let rate = prompt("Enter rate ");
+alert(`Your daily earning is ${hour * rate}`);
+
+let name = prompt("Enter your name");
+if (name > 7) {
+  alert("your name is long");
+} else {
+  alert("your name is short");
+}*/
+
+let lastName = prompt("Enter lastName");
+let firstName = prompt("Enter firstName");
+console.log(
+  `Your firstname, ${firstName} is longer than your family name,${lastName}`
+);
