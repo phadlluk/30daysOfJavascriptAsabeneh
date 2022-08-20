@@ -100,21 +100,35 @@ let j = itCompanies[1].toUpperCase();
 console.log(j); //GOOGLE
 
 let k = itCompanies[2].toUpperCase();
-console.log(k);
+console.log(k); //MICROSOFT
 
 let l = itCompanies[3].toUpperCase();
-console.log(l);
+console.log(l); //APPLE
 
 let m = itCompanies[4].toUpperCase();
-console.log(m);
+console.log(m); //IBM
 
 let n = itCompanies[5].toUpperCase();
-console.log(n);
+console.log(n); //ORACLE
 
 let o = itCompanies[6].toUpperCase();
-console.log(o);
+console.log(o); //AMAZON
 
-let p = itCompanies[7].toUpperCase();
-console.log(p);
-//12.
-console.log(`${itCompanies} are big IT companies`);
+//15.
+itCompanies.sort();
+console.log(itCompanies);
+//16.
+itCompanies.reverse();
+console.log(itCompanies);
+//17.
+console.log(itCompanies.slice(0, 3));
+//18.
+console.log(itCompanies.slice(4, itCompanies.length));
+//19.
+console.log(itCompanies.slice(3, 4));
+//20
+console.log(itCompanies.shift());
+//21.
+
+//22.
+console.log(itCompanies.pop());
