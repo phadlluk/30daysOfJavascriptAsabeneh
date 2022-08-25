@@ -37,3 +37,11 @@ do {
   console.log(b);
   b--;
 } while (b >= 0);
+
+//3.Iterate 0 to n using for loop
+
+//for loop
+// let n = 0;
+// for (let i = 0; i <= n.length; i++) {
+//   console.log(i);
+// }
