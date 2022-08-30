@@ -41,7 +41,73 @@ do {
 //3.Iterate 0 to n using for loop
 
 //for loop
-// let n = 0;
-// for (let i = 0; i <= n.length; i++) {
-//   console.log(i);
-// }
+let n = 10;
+for (let i = 0; i <= n; i++) {
+  console.log(i);
+}
+//4. Write a loop that makes the following pattern using console.log():
+//5. Use loop to print the following pattern:
+//6. Using loop print the following pattern
+
+//7. Use for loop to iterate from 0 to 100 and print only even numbers
+for (let i = 0; i <= 100; i++)
+  if (i % 2 == 0) {
+    console.log(i);
+  }
+//8. Use for loop to iterate from 0 to 100 and print only odd numbers
+for (let i = 0; i <= 100; i++)
+  if (i % 2 == 1) {
+    console.log(i);
+  }
+//9. Use for loop to iterate from 0 to 100 and print only prime numbers
+
+//10. Use for loop to iterate from 0 to 100 and print the sum of all numbers.
+let sum = 0;
+for (let i = 0; i <= 100; i++) {
+  sum = sum + i;
+}
+console.log(`sum of all the numbers from 0 to 100 is ${sum}`);
+
+//11.Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds.
+let evenSum = 0;
+let oddSum = 0;
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 == 0) {
+    evenSum = evenSum + i;
+  } else {
+    oddSum = oddSum + i;
+  }
+}
+console.log(evenSum);
+console.log(oddSum);
+console.log(
+  `the sum of all the even numbers from 0 to 100 is ${evenSum} and the sum of all the odd numbers from 0 to 100 is ${oddSum} `
+);
+//12. Use for loop to iterate from 0 to 100 and print the sum of all evens and the sum of all odds. Print sum of evens and sum of odds as array
+let even = 0;
+let odd = 0;
+let total = [];
+for (let i = 0; i <= 100; i++) {
+  if (i % 2 == 0) {
+    even = even + i;
+  } else {
+    odd = odd + i;
+  }
+}
+total.push(even, odd);
+console.log(total);
+
+//13.Develop a small script which generate array of 5 random numbers
+var arr = [];
+for (var d = 0; d < 5; d++) {
+  arr.push(Math.floor(Math.random() * 6) + 1);
+}
+console.log(arr);
+
+//14. Develop a small script which generate array of 5 random numbers and the numbers must be unique
+const newArr = [];
+while (newArr.length < 5) {
+  const r = Math.floor(Math.random() * 10) + 1;
+  if (newArr.indexOf(r) === -1) newArr.push(r);
+}
+console.log(newArr);
