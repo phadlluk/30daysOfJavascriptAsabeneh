@@ -111,3 +111,30 @@ while (newArr.length < 5) {
   if (newArr.indexOf(r) === -1) newArr.push(r);
 }
 console.log(newArr);
+//15. Develop a small script which generate a six characters random id:
+let char = "abcdefghijklmnopqrstuvwxyz1234567890";
+
+// let id = "";
+// for (let i = 0; i < 6; i++) {
+//   const randNum = Math.floor(Math.random() * char.length);
+//   id = id + char.charAt(randNum);
+// }
+// console.log(id);
+
+//Exercise level 2
+
+//1.Develop a small script which generate any number of characters random id:
+let id = "";
+let idLen = 8;
+for (let i = 0; i < idLen; i++) {
+  const randNum = Math.floor(Math.random() * char.length);
+  id = id + char.charAt(randNum);
+}
+console.log(id);
+
+//2.Write a script which generates a random hexadecimal number.
+
+//3.Write a script which generates a random rgb color number.
+
+const rand = Math.floor(Math.random() * 256);
+console.log(`rgb(${rand}, ${rand}, ${rand})`);
