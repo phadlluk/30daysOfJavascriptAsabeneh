@@ -138,3 +138,44 @@ console.log(id);
 
 const rand = Math.floor(Math.random() * 256);
 console.log(`rgb(${rand}, ${rand}, ${rand})`);
+
+const countries = [
+  "Albania",
+  "Bolivia",
+  "Canada",
+  "Denmark",
+  "Ethiopia",
+  "Finland",
+  "Germany",
+  "Hungary",
+  "Ireland",
+  "Japan",
+  "Kenya",
+];
+//4. Using the above countries array, create the following new array.
+[
+  "ALBANIA",
+  "BOLIVIA",
+  "CANADA",
+  "DENMARK",
+  "ETHIOPIA",
+  "FINLAND",
+  "GERMANY",
+  "HUNGARY",
+  "IRELAND",
+  "JAPAN",
+  "KENYA",
+];
+const newArray = [];
+for (const c of countries) {
+  newArray.push(c.toUpperCase());
+}
+console.log(newArray);
+
+//5. Using the above countries array, create an array for countries length'.
+
+for (const c of countries);
+{
+  newArray.push(c.length());
+}
+console.log(newArray);
