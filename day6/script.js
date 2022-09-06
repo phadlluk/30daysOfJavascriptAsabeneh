@@ -47,6 +47,9 @@ for (let i = 0; i <= n; i++) {
 }
 //4. Write a loop that makes the following pattern using console.log():
 //5. Use loop to print the following pattern:
+
+for (let i = 0; i <= 10; i++);
+
 //6. Using loop print the following pattern
 
 //7. Use for loop to iterate from 0 to 100 and print only even numbers
@@ -173,9 +176,3 @@ for (const c of countries) {
 console.log(newArray);
 
 //5. Using the above countries array, create an array for countries length'.
-
-for (const c of countries);
-{
-  newArray.push(c.length());
-}
-console.log(newArray);
